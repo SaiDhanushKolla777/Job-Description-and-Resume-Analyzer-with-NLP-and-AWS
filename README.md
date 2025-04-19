@@ -1,9 +1,6 @@
 # AWS Based Job-Description-and-Resume-Analyzer-with-NLP-and-OpenAI
 
-
-This project is a web application built using **Streamlit** that helps job seekers improve their resumes by analyzing them against a job description. The app extracts keywords, compares the text for similarity, and provides personalized feedback using **OpenAI's GPT-3.5**. It also generates visual word clouds to help visualize common terms in both the job description and resume.
-
-The application is backed by AWS services for OTP verification, which ensures secure access to the app.
+The application is backed by AWS services.
 
 ## Features
 
@@ -50,7 +47,6 @@ The application is backed by AWS services for OTP verification, which ensures se
 
 ## Technologies Used
 
-- **Streamlit**: Framework for creating the web app interface.
 - **spaCy**: NLP library for text processing.
 - **Sentence-Transformers**: Used for generating sentence embeddings and comparing text similarity.
 - **OpenAI GPT-3.5**: Provides personalized feedback for resume improvement.
@@ -97,15 +93,7 @@ To enable OTP verification, you'll need to configure AWS Lambda and API Gateway 
 2. **Set up an API Gateway** to expose the Lambda function as an endpoint for OTP generation and verification.
 3. Update the **`verify_otp_url`** and **`invoke_url`** in your code with the API Gateway endpoint URLs.
 
-### 5. Run the Streamlit App
 
-Run the app locally:
-
-```bash
-streamlit run app.py
-```
-
-Open your browser and go to `http://localhost:8501` to access the application.
 
 ## Contributing
 
