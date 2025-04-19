@@ -1,4 +1,4 @@
-# Job-Description-and-Resume-Analyzer-with-NLP-and-OpenAI
+# AWS Based Job-Description-and-Resume-Analyzer-with-NLP-and-OpenAI
 
 
 This project is a web application built using **Streamlit** that helps job seekers improve their resumes by analyzing them against a job description. The app extracts keywords, compares the text for similarity, and provides personalized feedback using **OpenAI's GPT-3.5**. It also generates visual word clouds to help visualize common terms in both the job description and resume.
